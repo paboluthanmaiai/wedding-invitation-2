@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g6bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCF8F2" />
+      <stop offset="50%" stop-color="#F8EADB" />
+      <stop offset="100%" stop-color="#ECD8C1" />
+    </linearGradient>
+    <linearGradient id="goldG6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89C" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E781E" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g6bg)" />
+  <rect x="50" y="50" width="700" height="500" rx="8" fill="#FFFDF9" stroke="#D4AF37" stroke-width="2" />
+  <rect x="65" y="65" width="670" height="470" rx="4" fill="none" stroke="#800020" stroke-width="1" stroke-dasharray="8,4" />
+
+  <!-- Classical South Indian Carved Pillars Perspective -->
+  <!-- Outer Pillars -->
+  <g fill="url(#goldG6)" stroke="#800020" stroke-width="1">
+    <rect x="140" y="160" width="40" height="300" rx="4" />
+    <path d="M 120 160 L 200 160 L 180 180 L 140 180 Z" />
+    <path d="M 120 460 L 200 460 L 180 440 L 140 440 Z" />
+
+    <rect x="620" y="160" width="40" height="300" rx="4" />
+    <path d="M 600 160 L 680 160 L 660 180 L 620 180 Z" />
+    <path d="M 600 460 L 680 460 L 660 440 L 620 440 Z" />
+  </g>
+  <!-- Inner Pillars -->
+  <g fill="#ECD6B0" stroke="#800020" stroke-width="0.8">
+    <rect x="250" y="190" width="30" height="250" rx="3" />
+    <rect x="520" y="190" width="30" height="250" rx="3" />
+  </g>
+  <!-- Grand Traditional Arch Joining Pillars -->
+  <path d="M 140 180 Q 400 90 660 180" fill="none" stroke="#800020" stroke-width="4" />
+  <path d="M 140 200 Q 400 120 660 200" fill="none" stroke="url(#goldG6)" stroke-width="2" stroke-dasharray="6,4" />
+
+  <!-- Center Decorative Kolam Pattern on Floor -->
+  <ellipse cx="400" cy="420" rx="90" ry="25" fill="none" stroke="#800020" stroke-width="2" stroke-dasharray="5,3" />
+  <ellipse cx="400" cy="420" rx="60" ry="16" fill="none" stroke="url(#goldG6)" stroke-width="1.5" />
+  <circle cx="400" cy="420" r="5" fill="#800020" />
+
+  <!-- Auspicious Mangala Vadhyam (Nadaswaram & Thavil) Silhouette -->
+  <g stroke="#800020" stroke-width="2" fill="none">
+    <!-- Nadaswaram horn -->
+    <path d="M 330 290 L 450 330 L 470 345 L 470 325 L 450 330" fill="url(#goldG6)" />
+    <!-- Thavil drum -->
+    <ellipse cx="360" cy="350" rx="28" ry="18" fill="#800020" />
+    <line x1="335" y1="350" x2="385" y2="350" stroke="url(#goldG6)" stroke-width="1.5" />
+  </g>
+
+  <text x="400" y="515" font-family="Cinzel, serif" font-size="20" fill="#800020" font-weight="bold" text-anchor="middle">SERENE TOGETHERNESS</text>
+  <text x="400" y="538" font-family="sans-serif" font-size="13" fill="#6B5E51" text-anchor="middle">Harmonious vows amidst timeless stone-carved heritage</text>
+</svg>

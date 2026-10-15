@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ehbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7" />
+      <stop offset="100%" stop-color="#FBF3DE" />
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89C" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E781E" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#ehbg)" rx="8" />
+  <rect x="8" y="8" width="384" height="224" rx="6" fill="none" stroke="#D4AF37" stroke-width="1.5" />
+  <rect x="14" y="14" width="372" height="212" rx="4" fill="none" stroke="#800020" stroke-width="0.8" stroke-dasharray="4,3" />
+
+  <!-- Marigold Swag across top -->
+  <path d="M 40 40 Q 200 80 360 40" stroke="#FF8C00" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="8,4" />
+  <path d="M 40 40 Q 200 80 360 40" stroke="#FFB703" stroke-width="6" fill="none" stroke-linecap="round" />
+
+  <!-- Traditional Haldi Urli Bowl with Turmeric -->
+  <ellipse cx="200" cy="145" rx="75" ry="24" fill="url(#goldH)" />
+  <ellipse cx="200" cy="140" rx="68" ry="18" fill="#F4B41A" />
+  <ellipse cx="200" cy="138" rx="55" ry="12" fill="#E69500" />
+  
+  <!-- Mango Leaf in Haldi -->
+  <path d="M 200 135 Q 230 110 245 85 Q 215 110 200 135 Z" fill="#3D5A45" />
+
+  <!-- Kumkum & Sandalwood dots -->
+  <circle cx="160" cy="155" r="8" fill="#800020" />
+  <circle cx="240" cy="155" r="8" fill="#FFF8EE" stroke="#D4AF37" stroke-width="1.5" />
+
+  <text x="200" y="200" font-family="Cinzel, serif" font-size="14" fill="#800020" font-weight="bold" text-anchor="middle">PELLIKUTHURU &amp; HALDI</text>
+</svg>

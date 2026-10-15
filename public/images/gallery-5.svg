@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g5bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCF8F2" />
+      <stop offset="50%" stop-color="#FBF2E3" />
+      <stop offset="100%" stop-color="#F0DFC6" />
+    </linearGradient>
+    <linearGradient id="goldG5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89C" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E781E" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g5bg)" />
+  <rect x="50" y="50" width="700" height="500" rx="8" fill="#FFFDF9" stroke="#D4AF37" stroke-width="2" />
+  <rect x="65" y="65" width="670" height="470" rx="4" fill="none" stroke="#800020" stroke-width="1" stroke-dasharray="8,4" />
+
+  <!-- Traditional Silver/Brass Puja Thali in center -->
+  <ellipse cx="400" cy="320" rx="140" ry="60" fill="url(#goldG5)" />
+  <ellipse cx="400" cy="315" rx="125" ry="50" fill="#FFF8EE" stroke="#800020" stroke-width="2" />
+  
+  <!-- Kumkum & Turmeric Cups inside Thali -->
+  <circle cx="360" cy="310" r="18" fill="#800020" />
+  <circle cx="440" cy="310" r="18" fill="#FFB703" />
+  <circle cx="400" cy="335" r="16" fill="#FFFDF7" stroke="#D4AF37" stroke-width="1" />
+  <!-- Betel Leaves (Tamalapaku) & Areca Nuts -->
+  <path d="M 330 330 Q 300 350 330 370 Q 350 345 330 330 Z" fill="#3D5A45" />
+  <path d="M 470 330 Q 500 350 470 370 Q 450 345 470 330 Z" fill="#3D5A45" />
+
+  <!-- Floating Akshintalu (Sacred Turmeric Rice Grains) Shower -->
+  <g fill="#FFB703" stroke="#D4AF37" stroke-width="0.5">
+    <ellipse cx="250" cy="180" rx="5" ry="2" transform="rotate(30, 250, 180)" />
+    <ellipse cx="280" cy="150" rx="5" ry="2" transform="rotate(-20, 280, 150)" />
+    <ellipse cx="320" cy="200" rx="6" ry="2.5" transform="rotate(45, 320, 200)" />
+    <ellipse cx="350" cy="160" rx="5" ry="2" transform="rotate(15, 350, 160)" />
+    <ellipse cx="380" cy="190" rx="6" ry="2.5" transform="rotate(-35, 380, 190)" />
+    <ellipse cx="420" cy="170" rx="5" ry="2" transform="rotate(25, 420, 170)" />
+    <ellipse cx="460" cy="210" rx="6" ry="2.5" transform="rotate(-15, 460, 210)" />
+    <ellipse cx="500" cy="160" rx="5" ry="2" transform="rotate(50, 500, 160)" />
+    <ellipse cx="540" cy="190" rx="5" ry="2" transform="rotate(-40, 540, 190)" />
+    <ellipse cx="300" cy="230" rx="5" ry="2" transform="rotate(10, 300, 230)" />
+    <ellipse cx="480" cy="240" rx="5" ry="2" transform="rotate(-30, 480, 240)" />
+  </g>
+  <!-- Red Akshintalu Grains -->
+  <g fill="#800020">
+    <ellipse cx="265" cy="165" rx="5" ry="2" transform="rotate(-25, 265, 165)" />
+    <ellipse cx="335" cy="180" rx="5" ry="2" transform="rotate(35, 335, 180)" />
+    <ellipse cx="395" cy="150" rx="6" ry="2.5" transform="rotate(-10, 395, 150)" />
+    <ellipse cx="445" cy="190" rx="5" ry="2" transform="rotate(40, 445, 190)" />
+    <ellipse cx="515" cy="175" rx="6" ry="2.5" transform="rotate(-20, 515, 175)" />
+  </g>
+
+  <text x="400" y="515" font-family="Cinzel, serif" font-size="20" fill="#800020" font-weight="bold" text-anchor="middle">WARM BLESSINGS</text>
+  <text x="400" y="538" font-family="sans-serif" font-size="13" fill="#6B5E51" text-anchor="middle">Showers of sacred akshintalu bestowing lifelong harmony</text>
+</svg>

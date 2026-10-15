@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="embg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7" />
+      <stop offset="100%" stop-color="#FDF1DE" />
+    </linearGradient>
+    <linearGradient id="goldM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89C" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E781E" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#embg)" rx="8" />
+  <rect x="8" y="8" width="384" height="224" rx="6" fill="none" stroke="#D4AF37" stroke-width="1.5" />
+  <rect x="14" y="14" width="372" height="212" rx="4" fill="none" stroke="#800020" stroke-width="0.8" stroke-dasharray="4,3" />
+
+  <!-- Auspicious Mangalasutram Thread -->
+  <path d="M 80 70 Q 200 160 320 70" stroke="#FFB703" stroke-width="4.5" fill="none" />
+  <!-- Double Gold Sutrams -->
+  <circle cx="188" cy="120" r="14" fill="url(#goldM)" stroke="#800020" stroke-width="1.5" />
+  <circle cx="188" cy="120" r="7" fill="#800020" />
+  <circle cx="212" cy="120" r="14" fill="url(#goldM)" stroke="#800020" stroke-width="1.5" />
+  <circle cx="212" cy="120" r="7" fill="#800020" />
+
+  <!-- Betel Leaf (Tamalapaku with Jeelakarra Bellam paste) -->
+  <path d="M 200 138 C 170 170 200 178 200 178 C 200 178 230 170 200 138 Z" fill="#3D5A45" />
+  <circle cx="200" cy="162" r="6" fill="#8B4513" />
+
+  <!-- Flanking Traditional Lamps -->
+  <g transform="translate(100, 110)">
+    <path d="M 15 35 L 25 35 L 20 20 Z" fill="url(#goldM)" />
+    <path d="M 20 18 Q 23 10 20 5 Q 17 10 20 18 Z" fill="#FF8C00" />
+  </g>
+  <g transform="translate(260, 110)">
+    <path d="M 15 35 L 25 35 L 20 20 Z" fill="url(#goldM)" />
+    <path d="M 20 18 Q 23 10 20 5 Q 17 10 20 18 Z" fill="#FF8C00" />
+  </g>
+
+  <text x="200" y="200" font-family="Cinzel, serif" font-size="14" fill="#800020" font-weight="bold" text-anchor="middle">LAGNA SUMUHURTHAM</text>
+</svg>

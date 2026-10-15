@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g7bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCF8F2" />
+      <stop offset="50%" stop-color="#FCF3DD" />
+      <stop offset="100%" stop-color="#F6E7B9" />
+    </linearGradient>
+    <linearGradient id="goldG7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89C" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E781E" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g7bg)" />
+  <rect x="50" y="50" width="700" height="500" rx="8" fill="#FFFDF9" stroke="#D4AF37" stroke-width="2" />
+  <rect x="65" y="65" width="670" height="470" rx="4" fill="none" stroke="#800020" stroke-width="1" stroke-dasharray="8,4" />
+
+  <!-- Traditional Sunburst / Auspicious Haldi Mandala -->
+  <circle cx="400" cy="280" r="140" fill="#FFF8E0" stroke="#FFB703" stroke-width="3" stroke-dasharray="10,6" />
+  <circle cx="400" cy="280" r="110" fill="#FFF2CC" stroke="#800020" stroke-width="1.5" />
+  
+  <!-- Traditional Peeta (Wooden Stool with Kolam) -->
+  <ellipse cx="400" cy="380" rx="130" ry="35" fill="#A0522D" stroke="url(#goldG7)" stroke-width="3" />
+  <ellipse cx="400" cy="375" rx="120" ry="30" fill="#8B4513" />
+  <path d="M 320 375 Q 400 360 480 375" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="6,4" />
+  
+  <!-- Brass Chembu / Lotas with Holy Turmeric Water -->
+  <g transform="translate(370, 240)">
+    <path d="M 15 80 L 10 40 L 50 40 L 45 80 Z" fill="url(#goldG7)" stroke="#800020" stroke-width="1" />
+    <ellipse cx="30" cy="40" rx="20" ry="6" fill="#FFB703" />
+    <path d="M 22 25 Q 30 10 38 25 Z" fill="#3D5A45" />
+  </g>
+  <!-- Turmeric & Marigold Flowers Swirl -->
+  <g fill="#FF8C00">
+    <circle cx="280" cy="280" r="14" />
+    <circle cx="520" cy="280" r="14" />
+    <circle cx="400" cy="160" r="15" />
+  </g>
+  <g fill="#FFB703">
+    <circle cx="310" cy="210" r="12" />
+    <circle cx="490" cy="210" r="12" />
+    <circle cx="330" cy="340" r="12" />
+    <circle cx="470" cy="340" r="12" />
+  </g>
+
+  <text x="400" y="515" font-family="Cinzel, serif" font-size="20" fill="#800020" font-weight="bold" text-anchor="middle">CELEBRATION OF COLORS</text>
+  <text x="400" y="538" font-family="sans-serif" font-size="13" fill="#6B5E51" text-anchor="middle">Mangala Snanam filled with golden turmeric and joyous laughter</text>
+</svg>
